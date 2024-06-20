@@ -1,0 +1,139 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(53, 53, 53);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(to bottom, #464646, #000000);
+}
+
+hr {
+    width: 30vw;
+    font-size: large;
+    border: none;
+    background-color: rgb(83, 83, 83);
+    height: 1px;
+}
+
+.alert {
+    width: 90vw;
+    height: max-content;
+    background-color: rgb(209, 53, 53);
+    text-align: center;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: large;
+}
+
+.close-alert {
+    background: none;
+    border: none;
+    font-size: x-large;
+    cursor: pointer;
+    height: min-content;
+    float: right;
+    position: relative;
+    top: 0px;
+}
+
+.close-alert:hover {
+    background-color: rgb(189, 50, 50);
+    border-radius: 10px;
+}
+
+.title {
+    text-align: center;
+    color: darkgray;
+}
+
+.subtitle {
+    text-align: center;
+    color: darkgray;
+    margin-top: 0;
+}
+
+.count {
+    font-size: small;
+    color: rgb(149, 149, 149);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: larger;
+}
+
+.request {
+    color: rgb(136, 212, 117);
+    text-decoration: none;
+    font-size: x-large;
+}
+
+.opts {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.search-input {
+    background: none;
+    border: none;
+    font-size: xx-large;
+    text-align: center;
+    width: 40vw;
+    color: rgb(92, 146, 79);
+}
+
+.sort-lbl {
+    margin: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: none;
+    font-size: large;
+    color: rgb(149, 149, 149);
+}
+
+.sort-btn {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: none;
+    font-size: large;
+    color: rgb(149, 149, 149);
+    border: none;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.sort-btn:active {
+    background-color: rgb(83, 83, 83);
+}
+
+.search-input:focus {
+    outline: none;
+}
+ 
+.gametxt {
+    text-decoration: none;
+    color: rgb(150, 172, 150);
+}
+
+.random-game {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: none;
+    border-radius: 10px;
+    font-size: large;
+    padding: 10px;
+    margin: 10px;
+    color: rgb(149, 149, 149);
+    background-image: linear-gradient(to bottom right, #397162, rgb(45 87 45), rgb(9 137 9));
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.random-game:hover {
+    padding: 12px;
+}
+
+.random-game:active {
+    padding: 9px;
+}
